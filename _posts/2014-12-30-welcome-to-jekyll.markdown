@@ -5,7 +5,7 @@ date:   2014-12-30 09:00:13
 categories: jekyll update
 permalink: /archivers/hello
 ---
-Let $$\{ t_k\}$$ be a partition of $$[a,b]$$ 
+
 Euler Method
 ```ruby
 def EulerOdeSys(f,c,t):
@@ -50,7 +50,7 @@ EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speed
 
 ## Support me by... ##
 
-### Add a link ###
+### Add a link ###
 
 EasyBook does not make the footer heavy; the link to theme could be on `about.md`:
 
