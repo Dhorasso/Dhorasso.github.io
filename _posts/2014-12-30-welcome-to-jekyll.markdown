@@ -9,9 +9,9 @@ Euler Method
 ```ruby
 def EulerOdeSys(f,c,t):
     H=t[1]-t[0]
-    N=len(t)-1
+    N=len(t)
     M=len(c)
-    z = np.ones((N+1, M))
+    z = np.ones((N, M))
     z[0] = c
     for i in range(N):
         z[i+1]=z[i]+H*f(z[i],t[i])
