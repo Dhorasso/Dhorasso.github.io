@@ -5,15 +5,6 @@ date:   2014-12-30 09:00:13
 categories: jekyll update
 permalink: /archivers/hello
 ---
-
-$$Z =\begin{pmatrix}
-x_1(t_0)& x_2(t_0)&\cdots& x_{M}(t_0)\\
-x_1(t_1)& x_2(t_1)&\cdots& x_{M}(t_1)\\
-x_1(t_2)& x_2(t_2)&\cdots& x_{M}(t_2)\\
-\vdots& \vdots&\ddots& \vdots\\
-x_1(t_{N})& x_2(t_{N})&\cdots& x_{M}(t_{N})
-\end{pmatrix}
-$$
 Euler Method
 ```ruby
 def EulerOdeSys(f,c,t):
@@ -33,13 +24,13 @@ Use `$$` to wrap your formulas. For example, `$$ e^{i\pi} + 1 = 0 $$` displays $
 
 Multi-line forumlas are supported too.
 
-$$
+$
 \begin{aligned}
 & J(w, b) = \frac{1}{m} \sum_{i=1}^{m}L(\hat{y}^{(i)}, y^{(i)})
 + \frac{\lambda}{2m} \sum_{l=1}^{L}{||w||}^2_F\\\\
 & {||w||}^2_F = \sum_{i = 1}^{n[l]}\sum_{j = 1}^{n[l-1]}(w_{ij})^2
 \end{aligned}
-$$
+$
 
 
 ## EasyBook Advanced Functions ##
@@ -50,10 +41,46 @@ You are using [EasyBook][github-easybook] the template from [laobubu.net](http:/
 * **Disqus** or **多说** is ready.
 * **TOC** for posts is enabled.
 * **Profile** including your links and avatar on the sidebar.
-* *And more...*
+* *And more...*Z =
+9
+$
+10
+\begin{pmatrix}
+11
+x_1(t_0)& x_2(t_0)&\cdots& x_{M}(t_0)\\
+12
+x_1(t_1)& x_2(t_1)&\cdots& x_{M}(t_1)\\
+13
+x_1(t_2)& x_2(t_2)&\cdots& x_{M}(t_2)\\
+14
+\vdots& \vdots&\ddots& \vdots\\
+15
+x_1(t_{N})& x_2(t_{N})&\cdots& x_{M}(t_{N})
+16
+\end{pmatrix}
+17
+$
 
 > **Tips:** You can disable Disqus or 多说 on posts/pages by adding `nocomments: true` into [YAML Front Matter][frontmatter].
-
+Z =
+9
+$
+10
+\begin{pmatrix}
+11
+x_1(t_0)& x_2(t_0)&\cdots& x_{M}(t_0)\\
+12
+x_1(t_1)& x_2(t_1)&\cdots& x_{M}(t_1)\\
+13
+x_1(t_2)& x_2(t_2)&\cdots& x_{M}(t_2)\\
+14
+\vdots& \vdots&\ddots& \vdots\\
+15
+x_1(t_{N})& x_2(t_{N})&\cdots& x_{M}(t_{N})
+16
+\end{pmatrix}
+17
+$
 EasyBook uses upaiyun CDN to make everyone lncluding Chinese visitors feel speedy. You can find it in `_includes/footer.html` and change it to your favorite CDN like Google CDN.
 
 ## Support me by... ##
