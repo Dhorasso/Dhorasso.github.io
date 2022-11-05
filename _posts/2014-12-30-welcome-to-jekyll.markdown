@@ -5,7 +5,24 @@ date:   2014-12-30 09:00:13
 categories: jekyll update
 permalink: /archivers/hello
 ---
-hddshdghh
+
+Let $\{ t_k\}$ be a partition of such that $a=t_0<t_1<\cdots<t_{N}=b$ and $H$ be the constant length of the $k$-th subinterval ($H = t_k - t_{k-1}$). Let us consider initial value problem
+
+\begin{equation}\label{eul2}
+  \begin{cases}
+    \dfrac{dz}{dt} = f(z,t),      & \quad \text{on } \\\
+    z(a) = c,
+  \end{cases}
+\end{equation}
+
+Z =\begin{pmatrix}
+x_1(t_0)& x_2(t_0)&\cdots& x_{M}(t_0)\\
+x_1(t_1)& x_2(t_1)&\cdots& x_{M}(t_1)\\
+x_1(t_2)& x_2(t_2)&\cdots& x_{M}(t_2)\\
+\vdots& \vdots&\ddots& \vdots\\
+x_1(t_{N})& x_2(t_{N})&\cdots& x_{M}(t_{N})
+\end{pmatrix}
+$$
 
 GitHub Flavored Markdown is supported.
 
