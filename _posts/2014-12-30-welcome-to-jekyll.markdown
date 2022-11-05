@@ -5,7 +5,7 @@ date:   2014-12-30 09:00:13
 categories: jekyll update
 permalink: /archivers/hello
 ---
-
+Let $$\{ t_k\}$$ be a partition of $$[a,b]$$ 
 Euler Method
 ```ruby
 def EulerOdeSys(f,c,t):
