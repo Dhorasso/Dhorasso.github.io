@@ -5,30 +5,7 @@ date:   2014-12-30 09:00:13
 categories: jekyll update
 permalink: /archivers/hello
 ---
-
-Let $\{ t_k\}$ be a partition of $[a,b]$ such that $a=t_0<t_1<\cdots<t_{N}=b$ and $H$ be the constant length of the $k$-th subinterval ($H = t_k - t_{k-1}$). Let us consider initial value problem
-
-\begin{equation}\label{eul2}
-  \begin{cases}
-    \dfrac{dz}{dt} = f(z,t),      & \quad \text{on } [a, b]\\\\
-    z(a) = c,
-  \end{cases}
-\end{equation}
-where $z,f,c\in R^M$ i.e. $z = [x_1, x_2,\cdots, x_{M}]$, $c = [x_1(a), x_2(a),\cdots, x_{M}(a)]$ and $f = [f_1, f_2,\cdots, f_{M}]$. Note that \eqref{eul2} is a the general form of system of ODEs. 
-
-Let $t, z_k,Z$ defined as follows $$t=[t_0,t_2,\cdots,t_{N-1},t_{N}],\quad z_k = [x_1(t_k), x_2(t_k),\cdots, x_{M}(t_k)], \quad
-Z =\begin{pmatrix}
-x_1(t_0)& x_2(t_0)&\cdots& x_{M}(t_0)\\
-x_1(t_1)& x_2(t_1)&\cdots& x_{M}(t_1)\\
-x_1(t_2)& x_2(t_2)&\cdots& x_{M}(t_2)\\
-\vdots& \vdots&\ddots& \vdots\\
-x_1(t_{N})& x_2(t_{N})&\cdots& x_{M}(t_{N})
-\end{pmatrix}
-$$
-
-1. Write a python function <b> EulerOdeSys </b> that takes $f,c,t$ and return the solution $Z$ of the initial value problem \eqref{eul2} using Euler method i.e.
-$$ z_{k+1} = z_k + Hf(z_k,t_k) $$
-<!--more-->
+hddshdghh
 
 GitHub Flavored Markdown is supported.
 
