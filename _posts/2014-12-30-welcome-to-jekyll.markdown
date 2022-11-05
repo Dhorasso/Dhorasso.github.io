@@ -5,7 +5,7 @@ date:   2014-12-30 09:00:13
 categories: jekyll update
 permalink: /archivers/hello
 ---
-Let $$\{ t_k\}$$ be a partition of $$[a,b]$$ such that $$a=t_0<t_1<\cdots<t_{N}=b$$ and $H$ be the constant length of the $k$-th subinterval ($$H = t_k - t_{k-1}$$). Let us consider initial value problem
+Let $$\{ t_k\}$$ be a partition of $$[a,b]$$ such that $$a=t_0<t_1<\cdots<t_{N}=b$$ and $H$ be the constant length of the $$k$$-th subinterval ($$H = t_k - t_{k-1}$$). Let us consider initial value problem
 
 $$\begin{equation}\label{eul2}
   \begin{cases}
